@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Salvador Romanelli — DJ, productor y coder</title>
+  <meta name="description" content="Salvador Romanelli: DJ, productor y coder en Barcelona. Música, sets y las apps y herramientas que construyo.">
+  <meta name="theme-color" content="#0a0a0f">
+
+  <!-- Vista previa al compartir el link (WhatsApp, Instagram, Telegram) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Salvador Romanelli — DJ, productor y coder">
+  <meta property="og:description" content="Música, sets y las apps y herramientas que construyo.">
+  <meta property="og:url" content="https://salvaromanelli.github.io/">
+  <meta property="og:image" content="https://salvaromanelli.github.io/assets/img/projects/muzic.webp">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <header class="nav">
+    <a class="nav__brand" href="#top" aria-label="Salvador Romanelli, inicio"><img src="favicon.svg" alt="" width="28" height="28"><span>Salvador Romanelli</span></a>
+    <nav class="nav__links" aria-label="Secciones">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#musica">Música</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- PORTADA -->
+    <section class="hero" id="top">
+      <img class="hero__photo" src="assets/img/hero-placeholder.svg" alt="Foto de Salvador Romanelli" width="1200" height="1500">
+      <div class="eq" aria-hidden="true"></div>
+      <div class="hero__text wrap">
+        <p class="eyebrow">DJ · Productor · Coder — Barcelona</p>
+        <h1>Salvador<br>Romanelli</h1>
+        <p class="tagline">Pongo música, produzco y construyo apps y herramientas para el estudio.</p>
+        <div class="cta">
+          <a class="btn btn--primary" href="#musica">Escuchá mi música</a>
+          <a class="btn" href="#proyectos">Mis proyectos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="reveal">
+      <div class="wrap about">
+        <div class="section-head"><span class="num">01</span><h2>Sobre mí</h2></div>
+        <figure class="about__photo">
+          <img src="assets/img/photo-placeholder.svg" alt="Salvador Romanelli en la cabina" width="900" height="1100" loading="lazy">
+        </figure>
+        <div class="about__text">
+          <p class="lead">Soy DJ y productor, y vivo en Barcelona.</p>
+          <p>Del otro lado, programo: apps móviles con Flutter, paneles en React, backends en PHP y Python. Construyo con IA —Claude Code y servidores MCP que manejan Ableton— para convertir ideas del estudio en herramientas reales.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="reveal">
+      <div class="wrap">
+        <div class="section-head"><span class="num">02</span><h2>Proyectos</h2></div>
+        <div class="grid grid--3">
+          <article class="card">
+            <div class="card__media"><img src="assets/img/projects/clinicas-love.webp" alt="Pantallas de la app Clínicas Love: asistente virtual, inicio y reserva de cita" width="960" height="600" loading="lazy"></div>
+            <div class="card__body">
+              <p class="card__tags"><span class="tag">Flutter</span><span class="tag">Supabase</span><span class="tag">IA</span></p>
+              <h3>Clínicas Love</h3>
+              <p>App móvil para clínicas médico-estéticas: reserva de citas integrada con Clinic Cloud, asistente virtual con IA y simulador de resultados de tratamientos.</p>
+              <p class="card__links">
+                <a class="link" href="https://github.com/salvaromanelli/clinicas-love-app">Código</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media"><img src="assets/img/projects/clinicas-dashboard.webp" alt="Panel de métricas del dashboard de Clínicas Love" width="960" height="600" loading="lazy"></div>
+            <div class="card__body">
+              <p class="card__tags"><span class="tag">React</span><span class="tag">Supabase</span><span class="tag">Tailwind</span></p>
+              <h3>Dashboard de Clínicas Love</h3>
+              <p>Panel de administración de la app: usuarios y roles, clínicas, métricas de uso y monitoreo del chatbot.</p>
+              <p class="card__links">
+                <a class="link" href="https://github.com/salvaromanelli/clinicas-dashboard">Código</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media"><img src="assets/img/projects/muzic.webp" alt="Terminal con los comandos /muzic:listen y /muzic:replicate" width="960" height="600" loading="lazy"></div>
+            <div class="card__body">
+              <p class="card__tags"><span class="tag tag--accent">Colaboración</span><span class="tag">Claude Code</span><span class="tag">Ableton Live</span></p>
+              <h3>muzic</h3>
+              <p>Un plugin de Claude Code que escucha un tema —tempo, tonalidad, acordes compás a compás, energía— y arma el proyecto de Ableton a partir de eso.</p>
+              <p class="card__note">Lo creó Alex Gabay para mí: soy su primer usuario, co-diseñé el lado del productor y lo pruebo en el estudio.</p>
+              <p class="card__links">
+                <a class="link" href="https://github.com/JinKazamaMishima/muzic-plugin">Repo</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media"><img src="assets/img/projects/illuminnate.webp" alt="Web de Illuminnate Music" width="960" height="600" loading="lazy"></div>
+            <div class="card__body">
+              <p class="card__tags"><span class="tag">Astro</span><span class="tag">Tailwind</span><span class="tag">Flask</span></p>
+              <h3>Illuminnate Music</h3>
+              <p>Web para una comunidad de música: sets de DJ, tienda y contacto. Astro y Tailwind en el front, Flask en el backend.</p>
+              <p class="card__links">
+                <a class="link" href="https://illuminnatemusic.netlify.app/">Web</a>
+                <a class="link" href="https://github.com/salvaromanelli/Illuminnate-music">Código</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__media"><img src="assets/img/projects/fatture.webp" alt="Ilustración de una factura" width="960" height="600" loading="lazy"></div>
+            <div class="card__body">
+              <p class="card__tags"><span class="tag">PHP</span><span class="tag">React</span><span class="tag">Docker</span></p>
+              <h3>Fatture</h3>
+              <p>Gestión de facturas: backend en CakePHP con Docker y scripts de despliegue en AWS, y un frontend en React + Vite.</p>
+              <p class="card__links">
+                <a class="link" href="https://github.com/salvaromanelli/cakephp-fatture-app">Backend</a>
+                <a class="link" href="https://github.com/salvaromanelli/cakephp-fatture-frontend">Frontend</a>
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MÚSICA: pegar acá los embeds de SoundCloud / Spotify / YouTube / Mixcloud -->
+    <section id="musica" class="reveal">
+      <div class="wrap">
+        <div class="section-head"><span class="num">03</span><h2>Música</h2></div>
+        <div class="grid grid--2 music">
+          <div class="embed embed--todo">Tema o set 1<br><small>link de SoundCloud, Spotify, YouTube o Mixcloud</small></div>
+          <div class="embed embed--todo">Tema o set 2<br><small>link de SoundCloud, Spotify, YouTube o Mixcloud</small></div>
+          <div class="embed embed--todo">Tema o set 3<br><small>link de SoundCloud, Spotify, YouTube o Mixcloud</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HERRAMIENTAS -->
+    <section id="herramientas" class="reveal">
+      <div class="wrap">
+        <div class="section-head"><span class="num">04</span><h2>Herramientas</h2></div>
+        <div class="grid grid--2">
+          <div class="tools">
+            <h3>Estudio y cabina</h3>
+            <ul class="chips">
+              <li>Ableton Live</li>
+              <li>SMYLZ Producer (MCP)</li>
+              <li>muzic</li>
+            </ul>
+          </div>
+          <div class="tools">
+            <h3>Código</h3>
+            <ul class="chips">
+              <li>Claude Code</li>
+              <li>Flutter · Dart</li>
+              <li>React · Vite</li>
+              <li>Astro · Tailwind</li>
+              <li>Supabase</li>
+              <li>PHP · CakePHP</li>
+              <li>Python · Flask</li>
+              <li>Docker · AWS</li>
+              <li>Git y GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="reveal">
+      <div class="wrap contact">
+        <div class="section-head"><span class="num">05</span><h2>Contacto</h2></div>
+        <p class="contact__lead">Booking, fechas y colaboraciones:</p>
+        <a class="contact__mail" href="#contacto">[tu mail de booking]</a>
+        <ul class="socials">
+          <li><a href="#contacto">Instagram</a></li>
+          <li><a href="#contacto">SoundCloud</a></li>
+          <li><a href="#contacto">Spotify</a></li>
+          <li><a href="#contacto">YouTube</a></li>
+          <li><a href="https://github.com/salvaromanelli">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© <span data-year>2026</span> Salvador Romanelli · Hecho con HTML, CSS, JS y Claude Code · <a href="https://github.com/salvaromanelli/salvaromanelli.github.io">Código en GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
